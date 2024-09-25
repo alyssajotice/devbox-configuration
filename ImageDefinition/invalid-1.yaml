@@ -1,0 +1,12 @@
+$schema: 1.0
+name: project-sample-2
+image: ~Gallery~Default~microsoftvisualstudio_windowsplustools_base-win11-gen2@1.0.0
+tasks:
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
+    - name: choco
+      parameters:
+        package: vscode.install
+    - name: choco
+      paramete
