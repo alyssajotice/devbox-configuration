@@ -1,0 +1,15 @@
+$schema: 1.0
+name: project-sample-2
+image: ~Gallery~Default~mosoftvisualstudio_windowsplu
+tasks:
+    - name: choco
+      parameters:
+        package: notepadplusplus.install
+    - name: choco
+      parameters:
+        package: vscode.install
+    - name: choco
+      parameters:
+        package: vscode.install # Duplicate task
+        package: vscode.install # Duplicate task
+        
